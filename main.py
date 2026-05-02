@@ -17,7 +17,7 @@ def about():
 @app.get("/greet")
 def greet(name: str, age: int):
     return {
-        "message": f"Hello {name}!",
+        "message": f"Hello {name}, how are you?",
         "is_adult": age >= 18
     }
 
